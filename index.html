@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-spy="scroll" data-target="#navbarResponsive">
+    <header>
+      <div id="home">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarResponsive"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#home"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#connect me">Connect Me</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="picture">
+          <img src="IMG_0076.jpg" alt="this is my img" class="img-fluid"
+        </div>
+        <div class="heading text-center">
+          <h5>Hii, I'm</h5>
+          <h1>Shams Tabrez</h1>
+          <p>Nice To See You</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="about" class="container mt-3 mb-5">
+          <div class="post-heading text-center">
+              <h3 class="display-4 font-weight-bold text-white">About</h3>
+              <hr class="w-50 mx-auto text-white" />
+          </div>
+          <div class="row d-flex align-items-center">
+              <div class="col-lg-6 col-md-6 col-12 d-flex justify-content-center">
+                  <img src="datascience.jpg" class="img-fluid" alt="App Development" />
+              </div>
+              <div class="col-lg-6 col-md-6 col-12 text-white">
+                  <h2 class="mt-3">Want to know !!</h2>
+                  <hr />
+                  <p>
+                      A soon-to-be graduate with a Master of Science in Computer Science from Lakehead University. 
+                      With a deep passion for artificial intelligence and machine learning, 
+                      I am eager to embark on a professional journey as an ML Engineer, 
+                      Data Scientist, or AI Engineer.
+                  </p>
+                  <h3 class="mt-4">My Journey</h3>
+                  <hr />
+                  <div class="education-section">
+                      <h5>Master of Science in Computer Science</h5>
+                      <p>
+                          Lakehead University <br />
+                          September 2023 - Present
+                      </p>
+                      <h5>Bachelor of Technology in Information Technology</h5>
+                      <p>
+                          Durgapur Institute of Advanced Technology & Management <br />
+                          August 2017 - June 2021
+                      </p>
+                  </div>
+                  <h3 class="mt-4">Professional Experience</h3>
+                  <hr />
+                  <div class="experience-section">
+                      <p>
+                          I worked in Accenture for two years. During my time at Accenture, I worked as a Packaged App Development Analyst (Dec 2022 - Aug 2023) and Application Development Associate (Sept 2021 - Nov 2022), where I managed end-to-end development processes, optimized software configurations, and collaborated with cross-functional teams to enhance application functionalities. These experiences have sharpened my problem-solving skills and enabled me to deliver high-quality solutions in a fast-paced environment.
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <div class="text-center mt-5">
+              <button class="btn btn-primary w-50">
+                  <a href="#projects" class="text-white text-decoration-none">Know More</a>
+              </button>
+          </div>
+      </div>
+  </main>
+    
+  <div id="projects" class="container mt-3 pt-5">
+    <div class="post-heading text-center">
+      <h3 class="display-4 font-weight-bold text-white">Projects</h3>
+      <hr class="w-50 mx-auto text-white" />
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div class="card h-100">
+          <img src="textgenerator.jpg" class="card-img-top" alt="Text Generator">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Text-Generator</h5>
+            <p class="card-text">A machine learning project that generates coherent and contextually relevant text based on input data using advanced NLP techniques.</p>
+            <a href="https://github.com/Shams261/Text-Generator" target="_blank" class="btn btn-primary mt-auto">See Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div class="card h-100">
+          <img src="tweetss.png" class="card-img-top" alt="Tweet Sentiment Analysis">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">TweetSentimentAnalysis</h5>
+            <p class="card-text">Analyzes and classifies the sentiment of tweets as positive or negative,providing insights into public opinion on various topics.</p>
+            <a href="https://github.com/Shams261/TweetSentimentAnalysis" target="_blank" class="btn btn-primary mt-auto">See Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div class="card h-100">
+          <img src="music.jpg" class="card-img-top" alt="Music Genre Classification">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Music-Genre-Classification</h5>
+            <p class="card-text">Utilizes machine learning algorithms to accurately classify music tracks into their respective genres based on audio features.</p>
+            <a href="https://github.com/Shams261/Music-Genre-Classification" target="_blank" class="btn btn-primary mt-auto">See Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div class="card h-100">
+          <img src="bigd.jpg" class="card-img-top" alt="BIG DATA REPOSITORY">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">BIG_DATA_REPOSITORY</h5>
+            <p class="card-text">A comprehensive big data project involving data collection, processing, and analysis using scalable tools and technologies.</p>
+            <a href="https://github.com/Shams261/BIG_DATA_REPOSITORY" target="_blank" class="btn btn-primary mt-auto">See Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div class="card h-100">
+          <img src="techss.jpg" class="card-img-top" alt="Techstore">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Techstore</h5>
+            <p class="card-text">An e-commerce web application designed for tech products, featuring user authentication, product listings, and a shopping cart.</p>
+            <a href="https://github.com/Shams261/Techstore" target="_blank" class="btn btn-primary mt-auto">See Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div class="card h-100">
+          <img src="weather_.jpg" class="card-img-top" alt="Techstore">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">weather-app.github.io</h5>
+            <p class="card-text">A web application that provides real-time weather updates and forecasts based on user location.</p>
+            <a href="https://github.com/Shams261/weather-app.github.io" target="_blank" class="btn btn-primary mt-auto">See Project</a>
+          </div>
+        </div>
+      </div>
+      <button class="button w-50 mx-auto mb-5">
+        <a href="#home">Know More</a>
+      </button>
+    </div>
+  </div>
+  
+  
+    <footer>
+      <div id="connect me" class="container-fluid">
+        <div class="container text-white py-5">
+          <h4 class="text-secondary">Connect Me</h4>
+          <h1 class="m-heading">Let's Connect</h1>
+          <div class="row pt-5">
+            <div class="col-3 media_link btn">
+              <div class="row">
+                <div class="col-6 d-flex justify-content-start">
+                  <!-- <h3 class="m-0 pt-2 text-white">LinkedIn</h3> -->
+                  <a
+                    style="text-decoration: none"
+                    href="https://www.linkedin.com/in/shams-tabrez-169829167/"
+                    target="_blank"
+                  >
+                    <h3 class="m-0 pt-2 text-white">LinkedIn</h3>
+                  </a>
+                </div>
+                <div
+                  class="col-6 d-flex justify-content-end align-items-center"
+                >
+                  <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3 media_link btn">
+              <div class="row">
+                <div class="col-6 d-flex justify-content-start">
+                  <!-- <h3 class="m-0 pt-2 text-white">Github</h3> -->
+                  <a
+                    style="text-decoration: none"
+                    href="https://github.com/Shams261"
+                    target="_blank"
+                  >
+                    <h3 class="m-0 pt-2 text-white">Github</h3>
+                  </a>
+                </div>
+                <div
+                  class="col-6 d-flex justify-content-end align-items-center"
+                >
+                  <i class="fab fa-github fa-2x text-secondary"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3 media_link btn">
+              <div class="row">
+                <div class="col-6 d-flex justify-content-start">
+                  <!-- <h3 class="m-0 pt-2 text-white">Youtube</h3> -->
+                  <a
+                    style="text-decoration: none"
+                    href="https://www.instagram.com/shams.0026/"
+                    target="_blank"
+                  >
+                    <h3 class="m-0 pt-2 text-white">Instagram</h3>
+                  </a>
+                </div>
+                <div
+                  class="col-6 d-flex justify-content-end align-items-center"
+                >
+                  <i class="fab fa-youtube fa-2x text-secondary"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3 media_link btn">
+              <div class="row">
+                <div class="col-6 d-flex justify-content-start">
+                  <!-- <h3 class="m-0 pt-2 text-white">Email</h3> -->
+                  <a
+                    style="text-decoration: none"
+                    href="mailto:shams0026@outlook.com"
+                  >
+                    <h3 class="m-0 pt-2 text-white">Email</h3>
+                  </a>
+                </div>
+                <div
+                  class="col-6 d-flex justify-content-end align-items-center"
+                >
+                  <i class="fas fa-envelope fa-2x text-secondary"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-muted text-center py-3 mt-5">
+        <h5>
+          Copyright &copy; 2021 |
+          <a class="last text-secondary text-decoration-none" href="#home"
+            >Shams Tabrez</a
+          >
+        </h5>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+      integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+      integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
